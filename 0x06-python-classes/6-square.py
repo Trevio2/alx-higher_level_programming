@@ -2,8 +2,6 @@
 
 """Define a class Square."""
 
-
-
 class Square:
 
     """Represent a square."""
@@ -104,3 +102,4 @@ class Square:
             [print("#", end="") for k in range(0, self.__size)]
 
             print("")
+            

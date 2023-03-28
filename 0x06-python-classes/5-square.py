@@ -2,8 +2,6 @@
 
 """Define a class Square."""
 
-
-
 class Square:
 
     """Represent a square."""
@@ -67,3 +65,4 @@ class Square:
         if self.__size == 0:
 
             print("")
+            
