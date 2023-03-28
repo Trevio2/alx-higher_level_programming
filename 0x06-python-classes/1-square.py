@@ -21,3 +21,4 @@ class Square:
         """
 
         self.__size = size
+        
