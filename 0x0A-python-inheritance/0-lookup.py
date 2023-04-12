@@ -9,14 +9,6 @@
 """
 
 
-class lookup:
-    def __init__(self, list):
-        """Initializes a new instance of the lookup class"""
-        self.list = list
-
-        def __lookup(self)
-        return self.list
-
-    my_object = lookup()
-    lookup = lookup()
-        print(lookup.lookup(my_object))
+def lookup(object):
+    """Returns the list of available attributes and methods of an object"""
+    return dir(object)
