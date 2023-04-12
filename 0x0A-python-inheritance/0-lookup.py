@@ -17,5 +17,5 @@ class lookup:
         def __lookup(self):
             return self.list
 
-        list = lookup(attribute)
+        list = lookup()
         print(list)
