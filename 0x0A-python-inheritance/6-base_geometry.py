@@ -5,4 +5,4 @@
 class BaseGeometry:
     def area(self):
         """This module raises an Exception with a message"""
-        raise TypeError("area() is not implemented")
+        raise Exception("area() is not implemented")
