@@ -1,12 +1,20 @@
 #!/usr/bin/python3
-"""function that returns the list of available attributes and methods of an object"""
+"""Returns a list of available attributes and non-callable methods of an object.
+
+    Args:
+        obj: An object to inspect.
+
+    Returns:
+        A list of attribute names.
+"""
 
 
 class lookup:
     def __init__(self, list):
-        self.list =list
+        """Initializes a new instance of the lookup class"""
+        self.list = list
 
-        def __isattribute(self):
+        def __lookup(self):
             return self.list
 
         list = lookup(attribute)
