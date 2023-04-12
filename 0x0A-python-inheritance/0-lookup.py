@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Returns a list of available attributes and non-callable methods of an object.
+"""Returns a list of available attributes and methods.
 
     Args:
         obj: An object to inspect.
@@ -10,5 +10,5 @@
 
 
 def lookup(obj):
-    """Returns the list of available attributes and methods of an object"""
+    """Returns the list of attributes and methods"""
     return dir(obj)
