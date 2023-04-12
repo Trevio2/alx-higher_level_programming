@@ -14,8 +14,9 @@ class lookup:
         """Initializes a new instance of the lookup class"""
         self.list = list
 
-        def __lookup(self):
-            return self.list
+        def __lookup(self)
+        return self.list
 
-        list = lookup()
-        print(list)
+    my_object = lookup()
+    lookup = lookup()
+        print(lookup.lookup(my_object))
